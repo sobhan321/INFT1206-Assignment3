@@ -41,3 +41,14 @@ h2 {
   color: darkslategray;
   font-weight: bold;
 }
+
+/* Link styles */
+a {
+  color: green;
+}
+
+a:hover,
+a:focus {
+  color: darkgreen;
+  text-decoration: none;
+}
