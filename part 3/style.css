@@ -32,6 +32,10 @@ img {
 .grid {
   margin: 0 auto;
   max-width: 980px;
+  /* Two columns: article is 3 times wider than aside, with a 20px gap */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
 }
 
 nav {
@@ -65,4 +69,7 @@ nav a {
 
 .feature {
   width: 200px;
+  /* Text wraps around the image to the right and bottom */
+  float: left;
+  margin: 8px 30px 20px 0;
 }
