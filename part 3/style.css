@@ -37,12 +37,18 @@ img {
 nav {
   background-color: black;
   padding: 0.5em;
+  /* Nav bar sticks to the top of the page when scrolling */
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  /* Show nav links in one row with equal space between them */
+  display: flex;
+  justify-content: space-around;
 }
 
 nav a {
